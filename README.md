@@ -1,6 +1,6 @@
 ## 🏗️ Construction Project Data Analysis & Automation
 
-This Python project cleans, analyzes, and automates the reporting of construction project data using **pandas**. It is designed to help stakeholders gain insights into project costs, labour utilisation, progress tracking, and monthly trends — all exported into a neatly organised Excel report.
+This Python project automates the cleaning, analysis, and reporting of construction project data using **pandas**. It delivers actionable insights into material costs, labour utilisation, monthly trends, and project status. The script runs from start to finish and generates a ready-to-share Excel report with all results clearly organised.
 
 ---
 
@@ -8,24 +8,28 @@ This Python project cleans, analyzes, and automates the reporting of constructio
 
 This script automates the following steps:
 
-1. **Data Cleaning**
-   - Renames inconsistent column headers
-   - Drops duplicate entries
-   - Fills missing values with column means
-   - Converts text to standard formats and correct data types
+### 1. Data Cleaning
+- Renames inconsistent column headers
+- Removes duplicate rows (by `Project_ID` and `Report_Date`)
+- Fills missing values in `Material_Cost` and `Labor_Hours` with mean values
+- Converts `Report_Date` to datetime and `Project_Progress` to numeric
+- Standardises text fields (e.g. `Project_Status`)
 
 2. **Data Analysis**
-   - Identifies site locations with highest and lowest average material cost
-   - Checks correlation between labour hours and project progress
-   - Tracks monthly totals for material cost and labour usage
-   - Counts projects per status (e.g., Completed, In Progress, Delayed)
-   - Calculates total cost proxy to identify top and bottom 5 most expensive projects
+   - It identifies site locations with highest and lowest average material cost
+   - It checks the correlation between labour hours and project progress
+   - It tracks monthly totals for material cost and labour usage
+   - It counts projects per status (e.g., Completed, In Progress, Delayed)
+   - It calculates the total cost proxy to identify top and bottom 5 most expensive projects
 
 3. **Excel Report Export**
-   - Outputs a multi-sheet Excel file named `cleaned_construction_data.xlsx` containing:
-     - **Cleaned_Data**: Full cleaned dataset
-     - **Analysis_Insights**: Cost insights, monthly trends, and status counts
-     - **Top_Bottom_Projects**: Top 5 and bottom 5 projects based on cost metric
+   All results are exported to a multi-sheet Excel file:  
+📄 `cleaned_construction_data.xlsx`
+
+With the following sheets:
+- **Cleaned_Data** – Fully cleaned dataset
+- **Analysis_Insights** – Key insights, monthly trends, and project counts
+- **Top_Bottom_Projects** – Top 5 and bottom 5 projects based on estimated total cost
 
 ---
 
@@ -40,3 +44,18 @@ This script automates the following steps:
 ---
 
 ## 📁 File Structure
+📦 construction-data-analysis
+├── construction_data_analysis.py     # Main Python script with cleaning & analysis
+├── sample_construction_data.csv      # Sample data (optional or anonymised)
+├── cleaned_construction_data.xlsx    # Output Excel report (auto-generated)
+└── README.md                         # Project documentation
+
+---
+
+## 📬 Contact
+
+**Chibuzor Michael Mathias**  
+Data Analyst & Python Automation Specialist  
+🔗 https://github.com/chi-matty
+linkedin.com/in/michael-matty  
+📧 mathiasmichael2@gmail.com
