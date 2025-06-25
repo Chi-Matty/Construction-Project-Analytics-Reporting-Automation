@@ -56,6 +56,6 @@ With the following sheets:
 
 **Chibuzor Michael Mathias**  
 Data Analyst & Python Automation Specialist  
-🔗 https://github.com/chi-matty
-linkedin.com/in/michael-matty  
+🔗 🔗 [GitHub Profile](https://github.com/chi-matty)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/michael-matty)
 📧 mathiasmichael2@gmail.com
