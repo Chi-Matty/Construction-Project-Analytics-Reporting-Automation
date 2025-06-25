@@ -1,4 +1,4 @@
-# 🏗️ Construction Project Data Analysis & Automation
+## 🏗️ Construction Project Data Analysis & Automation
 
 This Python project cleans, analyzes, and automates the reporting of construction project data using **pandas**. It is designed to help stakeholders gain insights into project costs, labour utilisation, progress tracking, and monthly trends — all exported into a neatly organised Excel report.
 
