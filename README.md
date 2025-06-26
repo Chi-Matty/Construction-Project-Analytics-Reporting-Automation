@@ -49,3 +49,5 @@ Data Analyst & Python Automation Specialist
 🔗 [GitHub Profile](https://github.com/chi-matty)
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/michael-matty)
 📧 mathiasmichael2@gmail.com
+
+I'm open to freelance work, collaborations, and volunteering for data-focused projects. Let’s connect.
