@@ -41,16 +41,6 @@ With the following sheets:
 - seaborn
 - XlsxWriter (Excel export engine)
 
----
-
-## 📁 File Structure
-📦 construction-data-analysis
-├── construction_data_analysis.py     # Main Python script with cleaning & analysis
-├── sample_construction_data.csv      # Sample data (optional or anonymised)
-├── cleaned_construction_data.xlsx    # Output Excel report (auto-generated)
-└── README.md                         # Project documentation
-
----
 
 ## 📬 Contact
 
