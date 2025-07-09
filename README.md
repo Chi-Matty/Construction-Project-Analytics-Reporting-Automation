@@ -35,11 +35,11 @@ With the following sheets:
 
 ## 🧰 Tools Used
 
-- Python 3.x
-- pandas
-- matplotlib
-- seaborn
-- XlsxWriter (Excel export engine)
+      - Python 3.x
+      - pandas
+      - matplotlib
+      - seaborn
+      - XlsxWriter (Excel export engine)
 
 
 ## 📬 Contact
