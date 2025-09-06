@@ -65,7 +65,7 @@ Stakeholders can use this automated report to track resource usage, compare cost
 
 ## 📬 Contact
 
-**Chibuzor Michael Mathias**  
+**Michael Mathias**  
 Data Analyst & Python Automation Specialist  
 🔗 [GitHub Profile](https://github.com/chi-matty)
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/michael-matty)
